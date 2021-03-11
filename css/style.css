@@ -422,18 +422,18 @@ body {
 .section3-wrp {
     display: flex;
     justify-content: space-between;
-    max-width: 1035px;
+    max-width: 1055px;
 }
 
 .section3-wrp-left, 
 .section3-wrp-right {
     display: flex;
     flex-direction: column;
-    width: 430px;
+    width: 455px;
 }
 
 .section3-wrp-left {
-    margin: 0 80px 0 0;
+    margin: 0 70px 0 0;
 }
 
 .section3-block {
@@ -444,6 +444,16 @@ body {
 .section3-block:nth-child(1),
 .section3-block:nth-child(3) {
     margin: 0 0 70px 0;
+}
+
+.section3-block-point {
+    border: none;
+    padding: 8px 11px;
+    margin: 0 0 29px 0;
+}
+
+.section3-block-point:last-child {
+    margin: 0;
 }
 
 .section3-block-title {
@@ -465,14 +475,16 @@ body {
     margin: 0 auto 30px auto;
 }
 
-.section3-block-wrp {
+.section3-block-point-wrp {
     display: flex;
     justify-content: space-between;
-    margin: 0 0 28px 0;
+    margin: 0 0 14px 0;
+    padding: 0 0 14px 0;
+    border-bottom: 1px solid #fbf7c0;
 }
 
-.section3-block-subtitle,
-.section3-block-price {
+.section3-block-point-subtitle,
+.section3-block-point-price {
     font-family: 'Yeseva One';
     font-size: 21px;
     line-height: 24px;
@@ -481,13 +493,34 @@ body {
     margin: 0;
 }
 
-.section3-block-description {
+.section3-block-point-description {
     font-family: 'Lato';
     font-size: 16px;
     color: #4c4c4c;
     margin: 0 0 37px 0;
 }
 
-.section3-block-description:last-child {
+.section3-block-point-description:last-child {
     margin: 0;
+}
+
+.section3-block-point-special {
+    border: 1px solid rgba(200, 159, 45, 0.7);
+    position: relative;
+    margin: 0 0 37px 0;
+}
+
+.section3-block-point-special::after {
+    content: "Special";
+    display: block;
+    background-color: #c89f2dd2;
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #f8fafa;
+    padding: 0 13px;
+    position: absolute;
+    top: -24px;
+    right: -1px;
 }
