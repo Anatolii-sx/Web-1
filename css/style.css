@@ -263,10 +263,11 @@ body {
 
 .section1 {
     background-color: #fff;
-    /* background-image: url(../img/section1_background.png); */
+    background-image: url(../img/section1_background.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 55px 0 30px 0;
+    position: relative;
 }
 
 .section1-wrp {
@@ -351,8 +352,7 @@ body {
     background-image: url(../img/section2_block.png);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.67;
-    border: 0.1px solid #fbf7c0;
+    border: 0.1px solid rgba(251, 247, 192, 0.67);
 }
 
 .section2-block-title {
@@ -382,6 +382,7 @@ body {
     color: #ffffff;
     text-align: center;
     margin: 0 0 71px 0;
+    opacity: 0.95;
 }
 
 .section2-block-wrp {
@@ -415,7 +416,9 @@ body {
 /* SECTION 3 */
 
 .section3 {
-    background-color: #fff;
+    background-image: url(../img/section3_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 107px 0 98px 0;
 }
 
