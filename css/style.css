@@ -278,9 +278,6 @@ body {
 }
 
 .section1-left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     max-width: 410px;
 }
 
@@ -300,7 +297,7 @@ body {
     background-size: contain;
     width: 247px;
     height: 24px;
-    margin: 0 0 32px 0;
+    margin: 0 auto 32px auto;
 }
 
 .section1-left-text {
@@ -318,7 +315,8 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     width: 219px;
-    height: 221px
+    height: 221px;
+    margin: 0 0 0 130px;
 }
 
 .section1-right {
@@ -344,9 +342,6 @@ body {
 }
 
 .section2-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     max-width: 570px;
     padding: 83px 80px 78px 80px;
     background-image: url(../img/section2_block.png);
@@ -371,7 +366,7 @@ body {
     background-size: contain;
     width: 247px;
     height: 24px;
-    margin: 0 0 30px 0;
+    margin: 0 auto 30px auto;
 }
 
 .section2-block-text {
@@ -437,11 +432,6 @@ body {
 
 .section3-wrp-left {
     margin: 0 70px 0 0;
-}
-
-.section3-block {
-    display: flex;
-    flex-direction: column;
 }
 
 .section3-block:nth-child(1),
@@ -541,8 +531,6 @@ body {
     background-image: url(../img/section4_block.png);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
     padding: 82px 74px 103px 74px;
     max-width: 770px;
     margin: 0 auto;
@@ -587,3 +575,68 @@ body {
 }
 
 /*SECTION 5*/
+
+.section5 {
+    background-image: url(../img/section5_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.section5-wrp {
+    display: flex;
+    justify-content: center;
+}
+
+.section5-picture {
+    width: 270px;
+    min-height: 507px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.section5-picture:nth-child(1) {
+    background-image: url(../img/section5_picture1.png);
+    margin: 0 30px 0 0;
+}
+
+.section5-picture:nth-child(2) {
+    background-image: url(../img/section5_picture2.png);
+    margin: 0 100px 0 0;
+}
+
+.section5-box {
+    max-width: 430px;
+}
+
+.section5-box-title {
+    text-align: center;
+    font-family: 'Yeseva One';
+    font-size: 36px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #cc9900;
+    margin: 0 0 15px 0;
+}
+
+.section5-box-mark {
+    background-image: url(../img/mark-yellow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 247px;
+    height: 24px;
+    margin: 0 auto 32px auto;
+}
+
+.section5-box-text {
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4c4c4c;
+    margin: 0 0 46px 0;
+}
+
+
+
