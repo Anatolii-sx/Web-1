@@ -524,3 +524,63 @@ body {
     top: -24px;
     right: -1px;
 }
+
+/* SECTION 4*/
+
+.section4 {
+    background-image: url(../img/section4_background_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.section4-block {
+    background-image: url(../img/section4_block.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 82px 74px 103px 74px;
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+.section4-block-title {
+    font-family: 'Yeseva One';
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 0 23px 0;
+}
+
+.section4-block-mark {
+    background-image: url(../img/mark-white.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 247px;
+    height: 24px;
+    margin: 0 auto 30px auto;
+}
+
+.section4-block-text {
+    font-family: GentiumBasicBold;
+    font-size: 25px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #dde0df;
+    text-align: center;
+    margin: 0;
+}
+
+.section4-block-inc {
+    display: block;
+    font-family: 'Lato';
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+/*SECTION 5*/
