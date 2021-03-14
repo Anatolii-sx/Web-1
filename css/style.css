@@ -630,13 +630,119 @@ body {
 
 .section5-box-text {
     text-align: center;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     color: #4c4c4c;
-    margin: 0 0 46px 0;
+    margin: 0 0 17px 0;
 }
+
+.section5-box-text2 {
+    margin: 0 0 40px 0;
+}
+
+.section5-box-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "name email"
+                         "date party-number"
+                         "btn btn";
+    grid-gap: 28px;
+}
+
+.section5-box-wrp-name {
+    grid-area: name;
+}
+
+.section5-box-wrp-email {
+    grid-area: email;
+}
+
+.section5-box-wrp-date {
+    grid-area: date;
+}
+
+.section5-box-wrp-party-number {
+    grid-area: party-number;
+}
+
+.section5-box-btn {
+    grid-area: btn;
+    justify-self: center;
+    display: block;
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    height: 36px;
+    text-align: center;
+    border: 1px solid #c89f2d;
+    background-color: #000;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 5px 60px;
+}
+
+.section5-box-btn:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+.section5-box-btn:active {
+    background-color: rgb(36, 241, 36);
+    color: black;
+}
+
+.section5-box-label-all {
+    display: block;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #c9a131;
+    margin: 0 0 7px 0;
+}
+
+.section5-box-input-all {
+    width: 200px;
+    height: 36px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid #c89f2d;
+    background-color: lightgray;
+    padding: 5px 14px;
+    color: olive;
+}
+
+.section5-box-input-all::placeholder {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
+    color: #7c7c7c;
+}
+
+.section5-box-input-all:hover {
+    border: 1px solid olive;
+    background-color: rgb(240, 240, 157);
+}
+
+.section5-box-input-all:focus {
+    border: 1px solid olive;
+    background-color: rgb(223, 223, 103);
+
+}
+
+
+
 
 
 
