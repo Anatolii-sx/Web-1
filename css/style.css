@@ -452,7 +452,6 @@ body {
 }
 
 .section3-block-point {
-    border: none;
     padding: 8px 11px;
     margin: 0 0 29px 0;
 }
@@ -1265,9 +1264,8 @@ body {
     }
 
     .section3-block-point {
-        border: none;
         padding: 8px 11px;
-        margin: 0 0 12px 0;
+        margin: 25px 0 12px 0;
     }
 
     .section3-block-point-subtitle, 
